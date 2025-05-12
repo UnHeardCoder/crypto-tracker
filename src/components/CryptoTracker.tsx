@@ -41,7 +41,7 @@ export default function CryptoTracker() {
                       }`}
                       onClick={() => setSelectedCoin(c.id)}
                     >
-                      <img src={c.image || "/placeholder.svg"} alt={c.name} className="w-6 h-6 rounded-full" />
+                      <img src={c.image || "/placeholder.svg"} alt={c.name} className="w-6 h-6 bg-white rounded-full p-1" />
                       <span className="text-white">{c.name}</span>
                     </button>
                   ))}
